@@ -1,15 +1,3 @@
-/*
-James Luo
-Tyler Ngo
-Matthew Shen
-
-6/2/2020
-Period 3
-
-An original 1v1 turn-based strategy game.
-*/
-
-
 import java.util.*;
 import java.awt.Graphics;
 import javax.swing.JFrame;
@@ -20,21 +8,6 @@ import javax.swing.BorderFactory;
 
 
 public class Hazards {
-
-	// public void GUI() {
-	// 	JFrame frame = new JFrame();
-	// 	JButton button = new JButton();
-	// 	JPanel panel = new JPanel();
-	// 	panel.setBorder(BorderFactory.createEmptyBorder(30, 30, 10, 30));
-	// 	panel.setLayout(new GridLayout(0, 1));
-	// 	panel.add(button);
-
-	// 	frame.add(panel, BorderLayout.CENTER);
-	// 	frame.getContentPane().add(new JFrameGraphics());
-	// 	frame.setVisible(true);
-	// 	frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-	// 	frame.pack();
-	// }
 
 	//runs game in while loop until win condition is reached
 	public static void main(String[] args) {
